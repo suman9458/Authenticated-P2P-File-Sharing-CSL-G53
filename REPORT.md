@@ -173,3 +173,4 @@ The Authenticated P2P File Sharing project provides an end-to-end secure, authen
 2. **Authenticated Encryption with Associated Data (AEAD):** Migrate to AES-256-GCM.
 3. **Public Key Infrastructure (PKI):** Implement X.509 certificate authority signing to automate trust validation.
 4. **NAT Traversal:** Implement STUN/TURN protocols to support WAN-wide P2P file transfers.
+

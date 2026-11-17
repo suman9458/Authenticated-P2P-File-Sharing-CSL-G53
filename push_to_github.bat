@@ -25,3 +25,4 @@ if %ERRORLEVEL% EQU 0 (
     echo     3. Run this script again or open GitHub Desktop to publish with 1-click!
 )
 pause
+

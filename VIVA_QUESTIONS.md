@@ -118,3 +118,4 @@ In simple RSA key transport, if an attacker records all encrypted traffic over m
 **Answer:**  
 AES-CBC provides confidentiality, while SHA-256 provides integrity verification (an "Encrypt-and-Hash" / "Encrypt-then-MAC" model).  
 **AES-GCM (Galois/Counter Mode)** is an **Authenticated Encryption with Associated Data (AEAD)** cipher. It combines counter-mode encryption with a Galois Message Authentication Code (GMAC) within a single primitive, verifying both authenticity and confidentiality simultaneously with hardware acceleration. Transitioning to AES-GCM is one of the future scope enhancements identified in Chapter 6.
+
