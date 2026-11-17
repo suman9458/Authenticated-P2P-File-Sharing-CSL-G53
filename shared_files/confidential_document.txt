@@ -1,0 +1,15 @@
+SKIT JAIPUR - DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING
+CYBER SECURITY LAB (7CS4-22) - B.TECH VII SEMESTER (SESSION 2026-27)
+MINI PROJECT CODE: CSL-G53
+TITLE: AUTHENTICATED P2P FILE SHARING (RSA + AES + SHA-256)
+STUDENT NAME: SUMAN KUMAR
+ROLL NUMBER: 23ESKCS822
+FACULTY SUPERVISOR: VIKASH DHANKAR (ASSISTANT PROFESSOR, CSE)
+
+SECURITY SPECIFICATION:
+1. Asymmetric Cryptography: RSA-2048 with OAEP (SHA-256 MGF1) padding and PSS digital signatures.
+2. Symmetric Cryptography: AES-256-CBC with PKCS#7 block padding.
+3. Cryptographic Integrity: SHA-256 file-level and packet-level hashing.
+4. Resistance to Attacks: Man-in-the-Middle (MitM) prevention, Eavesdropping prevention, Bit-flip tampering detection.
+5. All transmissions across TCP sockets are strictly ciphertext with cryptographically bound digital signatures.
+

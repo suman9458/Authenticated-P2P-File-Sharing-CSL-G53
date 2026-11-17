@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Environments
+env/
+venv/
+ENV/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local peer transfers
+received_files/
+received_demo/
+received_files_alice/
+received_files_bob/
+received_files_tamper_alice/
+received_files_tamper_bob/
+test_data/
+test_tamper_data/
